@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hello World! - Earth Facts</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #111;
+    background: #fff;
+  }
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 40px 60px 40px;
+  }
+  h1 {
+    font-size: 2.6em;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+  }
+  h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 30px 0 15px 0;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  img.earth {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #999;
+    margin: 25px 0;
+  }
+  ul, ol {
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding-left: 20px;
+    margin: 15px 0;
+  }
+  a {
+    color: #1a5fb4;
+  }
+  table {
+    border-collapse: collapse;
+    font-size: 1.1em;
+    margin: 15px 0;
+  }
+  th {
+    text-align: left;
+    font-weight: 700;
+    padding: 4px 25px 4px 0;
+  }
+  td {
+    padding: 4px 25px 4px 0;
+  }
+  .want-more {
+    font-size: 1.1em;
+    margin: 25px 0 10px 0;
+  }
+  .click-here-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 25px 0;
+    font-size: 1.1em;
+  }
+  button.click-here {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    padding: 6px 16px;
+    background: #f0f0f0;
+    border: 1px solid #888;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .note {
+    font-style: italic;
+    color: #333;
+  }
+  video {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 10px;
+    background: #000;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>Hello World!</h1>
+  <h2>A few facts about the world we live in</h2>
+
+  <img class="earth" src="images.jpeg" alt="The Earth as seen from space">
+
+  <p>Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.</p>
+
+  <hr>
+
+  <h3>About the earth</h3>
+  <ul>
+    <li>Polar Diameter: 12,714 km</li>
+    <li>Mass: 5.97 &times; 10^24 kg</li>
+    <li>Moons: <a href="https://space-facts.com/the-moon/">1 (The Moon)</a> 
+  </ul>
+
+  <hr>
+
+  <h3>Top 3 facts about the earth</h3>
+  <ol>
+    <li>The Earth&rsquo;s rotation is gradually slowing.</li>
+    <li>The Earth was once believed to be the centre of the universe.</li>
+    <li>Earth has a powerful magnetic field.</li>
+  </ol>
+
+  <hr>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Radius</th>
+        <th>Average<br>Temperature</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mars</td>
+        <td>3,396km</td>
+        <td>-46&deg;c</td>
+      </tr>
+      <tr>
+        <td>Venus</td>
+        <td>6,052km</td>
+        <td>462&deg;c</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <p class="want-more">Want to know more?</p>
+  <div class="click-here-row">
+    <button class="click-here" onclick="window.location.href='https://space-facts.com/earth/'">Click here</button>
+  </div>
+
+  <video controls>
+    <source src="earth.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</div>
+</body>
+</html>
